@@ -66,4 +66,4 @@ api.mapkey("yk", "Copy Image URL", () => {
     });
 });
 
-api.Hints.setCharacters("asqwertzxcvb");
+api.Hints.setCharacters("aswertzcvb");
