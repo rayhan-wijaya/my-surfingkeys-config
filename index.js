@@ -43,6 +43,9 @@ api.unmap("gxT");
 
 api.map("F", "af");
 
+api.map("s", "j");
+api.map("a", "k");
+
 settings.tabsThreshold = 0;
 settings.omnibarSuggestion = false;
 
