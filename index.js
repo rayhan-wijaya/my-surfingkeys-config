@@ -43,8 +43,10 @@ api.unmap("gxT");
 
 api.map("F", "af");
 
-api.map("s", "j");
-api.map("a", "k");
+api.unmap("E");
+
+api.map("E", "k");
+api.map("D", "j");
 
 api.map("<Alt-e>", "<Alt-s>");
 api.unmap("<Alt-s>");
