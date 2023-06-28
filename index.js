@@ -71,7 +71,7 @@ api.mapkey("yk", "Copy Image URL", () => {
   });
 });
 
-api.mapkey("gfs", "Turn off full screen in HackerRank", () => {
+api.mapkey("ghs", "Turn off full screen in HackerRank", () => {
   const location = window.location;
 
   const searchParams = new URLSearchParams(location.search);
