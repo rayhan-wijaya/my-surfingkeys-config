@@ -71,4 +71,13 @@ api.mapkey("yk", "Copy Image URL", () => {
   });
 });
 
+api.mapkey("gfs", "Turn off full screen in HackerRank", () => {
+  const location = window.location;
+
+  const searchParams = new URLSearchParams(location.search);
+  searchParams.set("isFullScreen", false);
+
+  location.search = searchParams.toString();
+});
+
 api.Hints.setCharacters("aswertzcvb");
