@@ -49,6 +49,8 @@ api.map("a", "k");
 api.map("<Alt-e>", "<Alt-s>");
 api.unmap("<Alt-s>");
 
+api.unmap("x");
+
 settings.tabsThreshold = 0;
 settings.omnibarSuggestion = false;
 
