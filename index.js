@@ -62,7 +62,7 @@ api.mapkey(
 api.mapkey(
   "gj",
   "Open Chrome Extension Shortcuts",
-  () => api.tabOpenLink("chrome://extensions/shortcuts")
+  () => void api.tabOpenLink("chrome://extensions/shortcuts")
 );
 
 api.mapkey("yk", "Copy Image URL", () => {
