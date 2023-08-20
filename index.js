@@ -48,6 +48,10 @@ api.unmap("<Alt-s>");
 
 api.unmap("x");
 
+api.map(";cu", ";U");
+api.map(";cU", ";u");
+
+
 settings.tabsThreshold = 0;
 settings.omnibarSuggestion = false;
 
